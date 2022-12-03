@@ -1,6 +1,6 @@
-INSERT INTO tb_category(name) VALUES ('ELECTRONICS');
-INSERT INTO tb_category(name) VALUES ('TV');
-INSERT INTO tb_category(name) VALUES ('COMPUTERS');
-INSERT INTO tb_category(name) VALUES ('SOUND');
-INSERT INTO tb_category(name) VALUES ('GAMES');
-INSERT INTO tb_category(name) VALUES ('BIKES');
+INSERT INTO tb_category(name, created_At) VALUES ('ELECTRONICS', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('TV', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('COMPUTERS', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('SOUND', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('GAMES', NOW());
+INSERT INTO tb_category(name, created_At) VALUES ('BIKES', NOW());
