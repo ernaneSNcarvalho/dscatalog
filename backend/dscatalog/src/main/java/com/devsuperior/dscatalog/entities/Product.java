@@ -31,7 +31,7 @@ public class Product implements Serializable {
 	private Double price;
 	private String imgUrl;
 	
-	@Column(columnDefinition = "TIMESTAMP WITHOUT TIMEZONE")
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant date;
 	
 	@ManyToMany
