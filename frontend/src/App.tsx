@@ -1,12 +1,11 @@
-import Navbar from 'components/Navbar';
 import './App.css';
 import './assets/styles/custom.scss';
+import Home from 'pages/Home';
 
 const App = () => {
   return (
     <>    
-    <Navbar />
-    <h1>Hello DsCatalog</h1>
+    <Home />
     </>
   );
 }
