@@ -7,8 +7,6 @@ import com.dscatalog.dscatalog.entities.Category;
 import com.dscatalog.dscatalog.entities.Product;
 
 @Repository
-public interface CategoryRepository extends JpaRepository<Category, Long> {
-
-	Product save(Product entity);
+public interface ProductRepository extends JpaRepository<Product, Long> {
 
 }
