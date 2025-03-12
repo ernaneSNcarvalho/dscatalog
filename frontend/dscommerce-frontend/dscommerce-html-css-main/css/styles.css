@@ -86,7 +86,10 @@ header {
   padding: 0 20px;
 }
 
-
+.dsc-header-client {
+  background-color: var(--dsc-color-bg-secondary);
+  color: var(--dsc-color-font-primary);
+}
 
 .dsc-header-admin {
   background-color: var(--dsc-color-bg-quaternary);
@@ -432,4 +435,3 @@ nav a {
     font-size: 16px;
   }
 }
-
